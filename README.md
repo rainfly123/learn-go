@@ -8,7 +8,7 @@ func Receive(argument interface{})
 value, ok := argument.(type)
 此处的type 可以是go内部任何类型，比如int,string,float32...
 
-**1.1如何判断某结构体有没有特定函数?**
+**2 如何判断某结构体有没有特定函数**
 
 很简单 定义个接口里面实现了特定方法，再实用类型断言
 ```
